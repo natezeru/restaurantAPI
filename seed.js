@@ -50,30 +50,29 @@ const seedItem = [
   {
     name: 'Porter House Steak',
     image: 'someimage.jpg',
-    price: 29.50,
-    vegetarian: true,
+    price: 29.5,
     MenuId : 3,
   },
   {
     name: 'Chicken Tenders Meal',
     image: 'someimage.jpg',
     price: 10.50,
-    vegetarian: false,
-    MenuId : 2,
+    
+    MenuId : 2
   },
   {
     name: 'Pancakes',
     image: 'someimage.jpg',
     price: 7.50,
-    vegetarian: false,
-    MenuId : 1,
+    
+    MenuId : 1
   },
   {
 
    name: "Eggs Benedict",
     image: "someimage",
     price: 8.99,
-    vegetarian: false,
+    
     MenuId: 1,
   },
   {
@@ -81,13 +80,13 @@ const seedItem = [
     name: "Chicken Sandwich Combo",
      image: "someimage",
      price: 7.99,
-     vegetarian: false,
+     
      MenuId: 2,
    },{
      name:"Spicy Chicken Sandwich Combo",
      price: 8.99,
      image:"someimage",
-     vegetarian:false,
+    
      MenuId: 2     
    },
 
@@ -96,15 +95,14 @@ const seedItem = [
     name: "Super Salad and Tofu",
      image: "someimage",
      price: 13.99,
-     vegetarian: true,
      MenuId: 3
    },
    {
      name:" Honey Sesame Chicken Breast",
      image:"someimage",
      price: 11.99,
-     vegetarian: false,
-    MenuId: 1
+     
+    MenuId: 3
 
    }
   

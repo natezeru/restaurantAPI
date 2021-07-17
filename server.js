@@ -84,7 +84,10 @@ app.post('/Restaurants', async (req, res) => {
 } )
 
 
-app.post('/Item')
+app.post('/Item', async() => {
+  let newItem = await Item.create(req.body)
+  res.send("created item")
+})
 //Update an Item Name
 
 app.put("/Item/:id", async (req, res) => {
