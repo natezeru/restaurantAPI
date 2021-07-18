@@ -15,6 +15,8 @@ app.get('/restaurant', async(req,res) =>{
   res.json({restaurant})
 })
 
+
+
 //get restaurant by id   //got a specfic restaurant from database and returned it 
 
 app.get('/restaurant/:id', async(req,res) => {
@@ -26,9 +28,10 @@ app.get('/restaurant/:id', async(req,res) => {
 //create a new restarurant 
 
 app.post('/restaurant', async(req,res) =>{
-  let restarurant = await Restaurant.create()
+  let restarurant = await Restaurant.create(req.body)
   res.send("New Restaurant Created") //res.send to send message to client that its created
 })
+
 
 // delete a restaurant
 
@@ -76,7 +79,7 @@ app.put('/menu/:id', async(req, res) => {
 
 //create menu
 app.post('/menu', async(req,res) => {
-  let menu = await Menu.create()
+  let menu = await Menu.create(req.body)
   res.send('menu created')
 })
 
@@ -120,7 +123,7 @@ app.delete('/item/:id', async(req, res) => {
 //create an item
 
 app.post("/item", async(req,res) => {
-  let item = await Item.create()
+  let item = await Item.create(req.body)
   res.json("item created")
 })
 
