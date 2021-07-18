@@ -33,17 +33,73 @@ const seedRestaurant = [
 
 const seedMenu = [
   {
-    title: 'Breakfast'
-    //RestaurantId : 1
+    title: 'Breakfast',
+    RestaurantId : 1
   },
   {
-    title: 'Lunch'
-   // RestaurantId : 2
+    title: 'Lunch',
+    RestaurantId:1
+
+  }
+  ,
+  {
+    title:'Dinner',
+    RestaurantId:1
+  },
+  
+  {
+    title: 'Breakfast',
+    RestaurantId:2
+  },
+
+  {
+    title: "Lunch",
+    RestaurantId: 2
+
+  }
+,
+
+{
+    title: "Dinner",
+    RestaurantId: 2
+},
+
+  {
+    title: 'Breakfast',
+   RestaurantId : 3
   },
   {
-    title: 'Dinner'
-    //RestaurantId : 3
+    title: 'Lunch',
+    RestaurantId : 3
   },
+  {
+    title: 'Dinner',
+    RestaurantId: 3
+  },
+  {
+    title: 'Breakfast',
+   RestaurantId : 4
+  },
+  {
+    title: 'Lunch',
+    RestaurantId : 4
+  },
+  {
+    title: 'Dinner',
+    RestaurantId: 4
+  },
+  {
+    title: 'Breakfast',
+   RestaurantId : 5
+  },
+  {
+    title: 'Lunch',
+    RestaurantId : 5
+  },
+  {
+    title: 'Dinner',
+    RestaurantId: 5
+  }
 ]
 
 const seedItem = [
