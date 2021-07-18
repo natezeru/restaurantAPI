@@ -4,7 +4,7 @@ const {Menu} = require('./Menu')
 const {Item} = require('./Item')
 
 //associations 
-Menu.belongsTo(Restaurant) 
+//Menu.belongsTo(Restaurant) 
 
 Restaurant.hasMany(Menu)
 

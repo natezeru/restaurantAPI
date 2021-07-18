@@ -33,16 +33,16 @@ const seedRestaurant = [
 
 const seedMenu = [
   {
-    title: 'Breakfast',
-    RestaurantId : 1,
+    title: 'Breakfast'
+    //RestaurantId : 1
   },
   {
-    title: 'Lunch',
-    RestaurantId : 2,
+    title: 'Lunch'
+   // RestaurantId : 2
   },
   {
-    title: 'Dinner',
-    RestaurantId : 3,
+    title: 'Dinner'
+    //RestaurantId : 3
   },
 ]
 
